@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Button id="label" onClick="doClick">Upload Images to ACS?</Button>
+	</Window>
+</Alloy>

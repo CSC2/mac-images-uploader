@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "universal",
+	"iosSdkPath": "/Users/Paul/Library/Application Support/Titanium/mobilesdk/osx/3.2.2.GA/iphone",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "1837dafee96bc128d251128784b490b9",
+	"modulesNativeHash": "8189d45198bf6458de8aa39aacfaaf49",
+	"gitHash": "96e9a07",
+	"name": "mac-images-uploader",
+	"id": "com.csc.macimagesuploader",
+	"analytics": true,
+	"publisher": "Paul",
+	"url": "http://",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2014 by Paul",
+	"guid": "24e7e46b-148c-4f5c-91b9-e046a0bccaab",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false,
+	"encryptJS": false
+}

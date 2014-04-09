@@ -1,0 +1,4 @@
+// this is a generated file - DO NOT EDIT
+
+COM_SOASTA_TOUCHTEST_OTHER_LDFLAGS=$(inherited) -F$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/ -framework GraphicsServices
+OTHER_LDFLAGS=$(inherited) $(COM_SOASTA_TOUCHTEST_OTHER_LDFLAGS) 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-authbase-url" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">vsu0vs2YDhgWFhRyBF2UZT1fwbHWeBfE</property>
+    <property name="acs-oauth-key-development" type="string">Repe4mVMayqIunZ5CV1d1kzPFKlcayG2</property>
+    <property name="acs-api-key-development" type="string">ER8D4V9IVfVREAXiQ644KQpQaolBBOi4</property>
+    <property name="acs-oauth-secret-production" type="string">JNIRzoJSgzymt0LHVivDuMXoGwEKmidN</property>
+    <property name="acs-oauth-key-production" type="string">ZBxy2WKkw2ZjAUcWwBKnDWW27PxhfvzM</property>
+    <property name="acs-api-key-production" type="string">npM3HhdfSZVHY08XPDIMoDm43zgFUts2</property>
+    <id>com.csc.e.macimagesuploader</id>
+    <name>mac-images-uploader</name>
+    <version>1.0</version>
+    <publisher>Paul</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2014 by Paul</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>24e7e46b-148c-4f5c-91b9-e046a0bccaab</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>
