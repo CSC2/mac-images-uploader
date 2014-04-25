@@ -115,7 +115,7 @@ function createPhotoCollection(collectionName, projectId) {
 				createNew(CREATE_NEW_UPDATE_PROJ);
 			}
 		} else {
-			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
+			Ti.API.info('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
 		}
 	});
 }
@@ -263,7 +263,7 @@ function createPhoto(photoData, collectionId) {
 	}, function(e) {
 		if (e.success) {
 		} else {
-			alert('Error:\\n' + ((e.error && e.message) || JSON.stringify(e)));
+			Ti.API.info('Error:\\n' + ((e.error && e.message) || JSON.stringify(e)));
 		}
 	});
 }
